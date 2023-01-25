@@ -1,0 +1,14 @@
+
+
+ #list > li::after{
+  content: '';
+  display: block;
+  position: absolute;
+  right: -40px;
+  top:50%;
+  width:150px;
+  height: 2px;
+  background-color: green;
+}
+
+
