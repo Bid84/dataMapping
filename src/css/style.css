@@ -1,6 +1,6 @@
 
 
- #list > li::after{
+ #list0 > li::after{
   content: '';
   display: block;
   position: absolute;
@@ -9,6 +9,10 @@
   width:150px;
   height: 2px;
   background-color: green;
+}
+
+.ui-selected{
+  background-color: aliceblue;
 }
 
 
